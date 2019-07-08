@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55344C6522D33FEB00352C61 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55344C6422D33FEB00352C61 /* Default-568h@2x.png */; };
+		55344C6A22D3417F00352C61 /* JSDTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55344C6922D3417F00352C61 /* JSDTabBarController.m */; };
+		55344C6E22D348CE00352C61 /* JSDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55344C6D22D348CE00352C61 /* JSDBaseViewController.m */; };
+		55344C7122D3490400352C61 /* JSDBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55344C7022D3490400352C61 /* JSDBaseNavigationController.m */; };
+		55344C7522D34DFF00352C61 /* JSDHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55344C7422D34DFF00352C61 /* JSDHomeViewController.m */; };
 		55B6EEBD22D324D70067E888 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B6EEBC22D324D70067E888 /* AppDelegate.m */; };
-		55B6EEC022D324D70067E888 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B6EEBF22D324D70067E888 /* ViewController.m */; };
 		55B6EEC322D324D70067E888 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55B6EEC122D324D70067E888 /* Main.storyboard */; };
 		55B6EEC522D324DA0067E888 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55B6EEC422D324DA0067E888 /* Assets.xcassets */; };
 		55B6EEC822D324DA0067E888 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55B6EEC622D324DA0067E888 /* LaunchScreen.storyboard */; };
 		55B6EECB22D324DA0067E888 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B6EECA22D324DA0067E888 /* main.m */; };
 		55B6EED522D324DA0067E888 /* MaterialColorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B6EED422D324DA0067E888 /* MaterialColorTests.m */; };
 		55B6EEE022D324DA0067E888 /* MaterialColorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B6EEDF22D324DA0067E888 /* MaterialColorUITests.m */; };
+		839C1459C0861A9A799E657B /* libPods-MaterialColorUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B67DB19B90CB316F33D4427 /* libPods-MaterialColorUITests.a */; };
+		9686B564C5B5F5D8A9B58E0F /* libPods-MaterialColorTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FCB36C9484CDC8C05B328CF /* libPods-MaterialColorTests.a */; };
+		9803288E8EB8BC2A3189E5A6 /* libPods-MaterialColor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C0214F944E1447F3D9520F /* libPods-MaterialColor.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +42,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B3E84808175404E33AC6F1A /* Pods-MaterialColorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaterialColorUITests.release.xcconfig"; path = "Target Support Files/Pods-MaterialColorUITests/Pods-MaterialColorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3FCB36C9484CDC8C05B328CF /* libPods-MaterialColorTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MaterialColorTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		55344C6422D33FEB00352C61 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		55344C6822D3417F00352C61 /* JSDTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSDTabBarController.h; sourceTree = "<group>"; };
+		55344C6922D3417F00352C61 /* JSDTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSDTabBarController.m; sourceTree = "<group>"; };
+		55344C6C22D348CE00352C61 /* JSDBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSDBaseViewController.h; sourceTree = "<group>"; };
+		55344C6D22D348CE00352C61 /* JSDBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSDBaseViewController.m; sourceTree = "<group>"; };
+		55344C6F22D3490400352C61 /* JSDBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSDBaseNavigationController.h; sourceTree = "<group>"; };
+		55344C7022D3490400352C61 /* JSDBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSDBaseNavigationController.m; sourceTree = "<group>"; };
+		55344C7322D34DFF00352C61 /* JSDHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSDHomeViewController.h; sourceTree = "<group>"; };
+		55344C7422D34DFF00352C61 /* JSDHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSDHomeViewController.m; sourceTree = "<group>"; };
+		55344C7622D3528700352C61 /* JSDPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSDPrefixHeader.pch; sourceTree = "<group>"; };
+		55344C7722D352CA00352C61 /* JSDMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSDMacro.h; sourceTree = "<group>"; };
+		55344C7822D352D900352C61 /* JSDPublic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSDPublic.h; sourceTree = "<group>"; };
 		55B6EEB822D324D70067E888 /* MaterialColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaterialColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55B6EEBB22D324D70067E888 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		55B6EEBC22D324D70067E888 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		55B6EEBE22D324D70067E888 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		55B6EEBF22D324D70067E888 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		55B6EEC222D324D70067E888 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		55B6EEC422D324DA0067E888 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55B6EEC722D324DA0067E888 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +70,13 @@
 		55B6EEDB22D324DA0067E888 /* MaterialColorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaterialColorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55B6EEDF22D324DA0067E888 /* MaterialColorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaterialColorUITests.m; sourceTree = "<group>"; };
 		55B6EEE122D324DA0067E888 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5804328739A4F20560418714 /* Pods-MaterialColor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaterialColor.debug.xcconfig"; path = "Target Support Files/Pods-MaterialColor/Pods-MaterialColor.debug.xcconfig"; sourceTree = "<group>"; };
+		667F8C5AB4DAF2F8BB935BF3 /* Pods-MaterialColorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaterialColorTests.release.xcconfig"; path = "Target Support Files/Pods-MaterialColorTests/Pods-MaterialColorTests.release.xcconfig"; sourceTree = "<group>"; };
+		6B67DB19B90CB316F33D4427 /* libPods-MaterialColorUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MaterialColorUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D313915D3733C65B22B0DE2 /* Pods-MaterialColor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaterialColor.release.xcconfig"; path = "Target Support Files/Pods-MaterialColor/Pods-MaterialColor.release.xcconfig"; sourceTree = "<group>"; };
+		8FF6C3EE0AD018F3108904B0 /* Pods-MaterialColorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaterialColorTests.debug.xcconfig"; path = "Target Support Files/Pods-MaterialColorTests/Pods-MaterialColorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D8C0214F944E1447F3D9520F /* libPods-MaterialColor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MaterialColor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E306DF422B810A7C40EDCCF0 /* Pods-MaterialColorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaterialColorUITests.debug.xcconfig"; path = "Target Support Files/Pods-MaterialColorUITests/Pods-MaterialColorUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9803288E8EB8BC2A3189E5A6 /* libPods-MaterialColor.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9686B564C5B5F5D8A9B58E0F /* libPods-MaterialColorTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,19 +100,114 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				839C1459C0861A9A799E657B /* libPods-MaterialColorUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		55344C5E22D33F1E00352C61 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				55344C7222D34DE900352C61 /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		55344C5F22D33F2800352C61 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				55B6EEBB22D324D70067E888 /* AppDelegate.h */,
+				55B6EEBC22D324D70067E888 /* AppDelegate.m */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		55344C6022D33F4200352C61 /* CategoryTool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CategoryTool;
+			sourceTree = "<group>";
+		};
+		55344C6122D33F6200352C61 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		55344C6222D33F7900352C61 /* Object */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Object;
+			sourceTree = "<group>";
+		};
+		55344C6322D33F9E00352C61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55B6EEC122D324D70067E888 /* Main.storyboard */,
+				55B6EEC422D324DA0067E888 /* Assets.xcassets */,
+				55B6EEC622D324DA0067E888 /* LaunchScreen.storyboard */,
+				55B6EEC922D324DA0067E888 /* Info.plist */,
+				55B6EECA22D324DA0067E888 /* main.m */,
+				55344C7622D3528700352C61 /* JSDPrefixHeader.pch */,
+				55344C7722D352CA00352C61 /* JSDMacro.h */,
+				55344C7822D352D900352C61 /* JSDPublic.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55344C6622D3413600352C61 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				55344C6B22D348B300352C61 /* ViewController */,
+				55344C6722D3414600352C61 /* TabBarVC */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		55344C6722D3414600352C61 /* TabBarVC */ = {
+			isa = PBXGroup;
+			children = (
+				55344C6822D3417F00352C61 /* JSDTabBarController.h */,
+				55344C6922D3417F00352C61 /* JSDTabBarController.m */,
+			);
+			path = TabBarVC;
+			sourceTree = "<group>";
+		};
+		55344C6B22D348B300352C61 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				55344C6C22D348CE00352C61 /* JSDBaseViewController.h */,
+				55344C6D22D348CE00352C61 /* JSDBaseViewController.m */,
+				55344C6F22D3490400352C61 /* JSDBaseNavigationController.h */,
+				55344C7022D3490400352C61 /* JSDBaseNavigationController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		55344C7222D34DE900352C61 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				55344C7322D34DFF00352C61 /* JSDHomeViewController.h */,
+				55344C7422D34DFF00352C61 /* JSDHomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		55B6EEAF22D324D70067E888 = {
 			isa = PBXGroup;
 			children = (
+				55344C6422D33FEB00352C61 /* Default-568h@2x.png */,
 				55B6EEBA22D324D70067E888 /* MaterialColor */,
 				55B6EED322D324DA0067E888 /* MaterialColorTests */,
 				55B6EEDE22D324DA0067E888 /* MaterialColorUITests */,
 				55B6EEB922D324D70067E888 /* Products */,
+				96006848119433F2282568D6 /* Pods */,
+				87E7389F6F7860F4AE07E6A7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +224,13 @@
 		55B6EEBA22D324D70067E888 /* MaterialColor */ = {
 			isa = PBXGroup;
 			children = (
-				55B6EEBB22D324D70067E888 /* AppDelegate.h */,
-				55B6EEBC22D324D70067E888 /* AppDelegate.m */,
-				55B6EEBE22D324D70067E888 /* ViewController.h */,
-				55B6EEBF22D324D70067E888 /* ViewController.m */,
-				55B6EEC122D324D70067E888 /* Main.storyboard */,
-				55B6EEC422D324DA0067E888 /* Assets.xcassets */,
-				55B6EEC622D324DA0067E888 /* LaunchScreen.storyboard */,
-				55B6EEC922D324DA0067E888 /* Info.plist */,
-				55B6EECA22D324DA0067E888 /* main.m */,
+				55344C5E22D33F1E00352C61 /* Modules */,
+				55344C5F22D33F2800352C61 /* Application */,
+				55344C6622D3413600352C61 /* Base */,
+				55344C6322D33F9E00352C61 /* Supporting Files */,
+				55344C6222D33F7900352C61 /* Object */,
+				55344C6122D33F6200352C61 /* Foundation */,
+				55344C6022D33F4200352C61 /* CategoryTool */,
 			);
 			path = MaterialColor;
 			sourceTree = "<group>";
@@ -132,6 +253,29 @@
 			path = MaterialColorUITests;
 			sourceTree = "<group>";
 		};
+		87E7389F6F7860F4AE07E6A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8C0214F944E1447F3D9520F /* libPods-MaterialColor.a */,
+				3FCB36C9484CDC8C05B328CF /* libPods-MaterialColorTests.a */,
+				6B67DB19B90CB316F33D4427 /* libPods-MaterialColorUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		96006848119433F2282568D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5804328739A4F20560418714 /* Pods-MaterialColor.debug.xcconfig */,
+				7D313915D3733C65B22B0DE2 /* Pods-MaterialColor.release.xcconfig */,
+				8FF6C3EE0AD018F3108904B0 /* Pods-MaterialColorTests.debug.xcconfig */,
+				667F8C5AB4DAF2F8BB935BF3 /* Pods-MaterialColorTests.release.xcconfig */,
+				E306DF422B810A7C40EDCCF0 /* Pods-MaterialColorUITests.debug.xcconfig */,
+				0B3E84808175404E33AC6F1A /* Pods-MaterialColorUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +283,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55B6EEE422D324DA0067E888 /* Build configuration list for PBXNativeTarget "MaterialColor" */;
 			buildPhases = (
+				4C2B8E16248C4972150128DC /* [CP] Check Pods Manifest.lock */,
 				55B6EEB422D324D70067E888 /* Sources */,
 				55B6EEB522D324D70067E888 /* Frameworks */,
 				55B6EEB622D324D70067E888 /* Resources */,
+				1435EB4B75449668D3C3AD81 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,6 +302,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55B6EEE722D324DA0067E888 /* Build configuration list for PBXNativeTarget "MaterialColorTests" */;
 			buildPhases = (
+				E80B720940DA68122EBC48AD /* [CP] Check Pods Manifest.lock */,
 				55B6EECC22D324DA0067E888 /* Sources */,
 				55B6EECD22D324DA0067E888 /* Frameworks */,
 				55B6EECE22D324DA0067E888 /* Resources */,
@@ -174,6 +321,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 55B6EEEA22D324DA0067E888 /* Build configuration list for PBXNativeTarget "MaterialColorUITests" */;
 			buildPhases = (
+				DD13184FDD695BB17053F878 /* [CP] Check Pods Manifest.lock */,
 				55B6EED722D324DA0067E888 /* Sources */,
 				55B6EED822D324DA0067E888 /* Frameworks */,
 				55B6EED922D324DA0067E888 /* Resources */,
@@ -236,6 +384,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55B6EEC822D324DA0067E888 /* LaunchScreen.storyboard in Resources */,
+				55344C6522D33FEB00352C61 /* Default-568h@2x.png in Resources */,
 				55B6EEC522D324DA0067E888 /* Assets.xcassets in Resources */,
 				55B6EEC322D324D70067E888 /* Main.storyboard in Resources */,
 			);
@@ -257,12 +406,126 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1435EB4B75449668D3C3AD81 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MaterialColor/Pods-MaterialColor-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/MaterialComponents/components/AppBar/src/MaterialAppBar.bundle",
+				"${PODS_ROOT}/MaterialComponents/components/CollectionCells/src/MaterialCollectionCells.bundle",
+				"${PODS_ROOT}/MaterialComponents/components/Collections/src/MaterialCollections.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents/MaterialIcons_ic_arrow_back.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents/MaterialIcons_ic_check.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents/MaterialIcons_ic_check_circle.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents/MaterialIcons_ic_chevron_right.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents/MaterialIcons_ic_info.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents/MaterialIcons_ic_radio_button_unchecked.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents/MaterialIcons_ic_reorder.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialAppBar.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCollectionCells.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCollections.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons_ic_arrow_back.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons_ic_check.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons_ic_check_circle.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons_ic_chevron_right.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons_ic_info.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons_ic_radio_button_unchecked.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons_ic_reorder.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MaterialColor/Pods-MaterialColor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C2B8E16248C4972150128DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MaterialColor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD13184FDD695BB17053F878 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MaterialColorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E80B720940DA68122EBC48AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MaterialColorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		55B6EEB422D324D70067E888 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55B6EEC022D324D70067E888 /* ViewController.m in Sources */,
+				55344C7122D3490400352C61 /* JSDBaseNavigationController.m in Sources */,
+				55344C6E22D348CE00352C61 /* JSDBaseViewController.m in Sources */,
+				55344C6A22D3417F00352C61 /* JSDTabBarController.m in Sources */,
+				55344C7522D34DFF00352C61 /* JSDHomeViewController.m in Sources */,
 				55B6EECB22D324DA0067E888 /* main.m in Sources */,
 				55B6EEBD22D324D70067E888 /* AppDelegate.m in Sources */,
 			);
@@ -433,11 +696,13 @@
 		};
 		55B6EEE522D324DA0067E888 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5804328739A4F20560418714 /* Pods-MaterialColor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J4D5D57QCL;
-				INFOPLIST_FILE = MaterialColor/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MaterialColor/Supporting Files/JSDPrefixHeader.pch";
+				INFOPLIST_FILE = "MaterialColor/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,11 +715,13 @@
 		};
 		55B6EEE622D324DA0067E888 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D313915D3733C65B22B0DE2 /* Pods-MaterialColor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J4D5D57QCL;
-				INFOPLIST_FILE = MaterialColor/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MaterialColor/Supporting Files/JSDPrefixHeader.pch";
+				INFOPLIST_FILE = "MaterialColor/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -467,6 +734,7 @@
 		};
 		55B6EEE822D324DA0067E888 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FF6C3EE0AD018F3108904B0 /* Pods-MaterialColorTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +754,7 @@
 		};
 		55B6EEE922D324DA0067E888 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 667F8C5AB4DAF2F8BB935BF3 /* Pods-MaterialColorTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -505,6 +774,7 @@
 		};
 		55B6EEEB22D324DA0067E888 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E306DF422B810A7C40EDCCF0 /* Pods-MaterialColorUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J4D5D57QCL;
@@ -523,6 +793,7 @@
 		};
 		55B6EEEC22D324DA0067E888 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B3E84808175404E33AC6F1A /* Pods-MaterialColorUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J4D5D57QCL;

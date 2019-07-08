@@ -7,6 +7,17 @@ target 'MaterialColor' do
 
   # Pods for MaterialColor
 
+  pod 'IconFont', '~> 0.0.2'
+  #pod 'MaterialComponents'
+  pod 'MaterialComponents/ButtonBar'
+  pod 'MaterialComponents/Buttons'
+  pod 'MaterialComponents/AppBar'
+  pod 'MaterialComponents/CollectionCells'
+  pod 'MaterialComponents/Collections'
+  pod 'Masonry'
+  pod 'MJRefresh'
+  pod 'CYLTabBarController', '~> 1.24.0'
+
   target 'MaterialColorTests' do
     inherit! :search_paths
     # Pods for testing
