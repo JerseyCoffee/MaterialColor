@@ -10,4 +10,7 @@
 #define JSDPublic_h
 
 
+#import "UIColor+JSDStyle.h"
+#import "UIView+JSDFrame.h"
+
 #endif /* JSDPublic_h */

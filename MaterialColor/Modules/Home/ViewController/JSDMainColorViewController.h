@@ -1,8 +1,8 @@
 //
-//  JSDHomeViewController.h
+//  JSDMainColorViewController.h
 //  MaterialColor
 //
-//  Created by Jersey on 2019/7/8.
+//  Created by ada on 2019/7/8.
 //  Copyright © 2019 Jersey. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface JSDHomeViewController : JSDBaseViewController
+@interface JSDMainColorViewController : JSDBaseViewController
 
 @end
 

@@ -11,7 +11,19 @@
 		55344C6A22D3417F00352C61 /* JSDTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55344C6922D3417F00352C61 /* JSDTabBarController.m */; };
 		55344C6E22D348CE00352C61 /* JSDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55344C6D22D348CE00352C61 /* JSDBaseViewController.m */; };
 		55344C7122D3490400352C61 /* JSDBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55344C7022D3490400352C61 /* JSDBaseNavigationController.m */; };
-		55344C7522D34DFF00352C61 /* JSDHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55344C7422D34DFF00352C61 /* JSDHomeViewController.m */; };
+		55344CA022D41FB600352C61 /* JSDHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55344C9F22D41FB600352C61 /* JSDHomeViewController.m */; };
+		55344CB322D4204500352C61 /* JSDMainColorTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55344CAD22D4204500352C61 /* JSDMainColorTableViewCell.xib */; };
+		55344CB422D4204500352C61 /* JSDMainColorTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 55344CAE22D4204500352C61 /* JSDMainColorTableViewCell.m */; };
+		55344CB522D4204500352C61 /* JSDAssistColorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 55344CAF22D4204500352C61 /* JSDAssistColorCell.m */; };
+		55344CB622D4204500352C61 /* JSDAssistColorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55344CB022D4204500352C61 /* JSDAssistColorCell.xib */; };
+		55344CB722D4208700352C61 /* JSDMainColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55344C9422D41EB000352C61 /* JSDMainColorViewController.m */; };
+		55344CB822D4208A00352C61 /* JSDAssistColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55344C9722D41EB000352C61 /* JSDAssistColorViewController.m */; };
+		55344CBA22D4254800352C61 /* JSDMainColor.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55344CB922D4254800352C61 /* JSDMainColor.plist */; };
+		55344CBD22D4271700352C61 /* JSDMainColorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 55344CBC22D4271700352C61 /* JSDMainColorModel.m */; };
+		55344CC422D430E800352C61 /* UIColor+JSDStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 55344CC322D430E800352C61 /* UIColor+JSDStyle.m */; };
+		55344CCB22D449E500352C61 /* JSDAssistColorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 55344CCA22D449E500352C61 /* JSDAssistColorModel.m */; };
+		55344CCD22D450F300352C61 /* JSDAssistColor.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55344CCC22D450F300352C61 /* JSDAssistColor.plist */; };
+		55344CD122D4881C00352C61 /* UIView+JSDFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 55344CD022D4881C00352C61 /* UIView+JSDFrame.m */; };
 		55B6EEBD22D324D70067E888 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B6EEBC22D324D70067E888 /* AppDelegate.m */; };
 		55B6EEC322D324D70067E888 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55B6EEC122D324D70067E888 /* Main.storyboard */; };
 		55B6EEC522D324DA0067E888 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55B6EEC422D324DA0067E888 /* Assets.xcassets */; };
@@ -51,11 +63,31 @@
 		55344C6D22D348CE00352C61 /* JSDBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSDBaseViewController.m; sourceTree = "<group>"; };
 		55344C6F22D3490400352C61 /* JSDBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSDBaseNavigationController.h; sourceTree = "<group>"; };
 		55344C7022D3490400352C61 /* JSDBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSDBaseNavigationController.m; sourceTree = "<group>"; };
-		55344C7322D34DFF00352C61 /* JSDHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSDHomeViewController.h; sourceTree = "<group>"; };
-		55344C7422D34DFF00352C61 /* JSDHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSDHomeViewController.m; sourceTree = "<group>"; };
 		55344C7622D3528700352C61 /* JSDPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSDPrefixHeader.pch; sourceTree = "<group>"; };
 		55344C7722D352CA00352C61 /* JSDMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSDMacro.h; sourceTree = "<group>"; };
 		55344C7822D352D900352C61 /* JSDPublic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSDPublic.h; sourceTree = "<group>"; };
+		55344C9422D41EB000352C61 /* JSDMainColorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSDMainColorViewController.m; sourceTree = "<group>"; };
+		55344C9722D41EB000352C61 /* JSDAssistColorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSDAssistColorViewController.m; sourceTree = "<group>"; };
+		55344C9E22D41FB600352C61 /* JSDHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSDHomeViewController.h; sourceTree = "<group>"; };
+		55344C9F22D41FB600352C61 /* JSDHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSDHomeViewController.m; sourceTree = "<group>"; };
+		55344CAD22D4204500352C61 /* JSDMainColorTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSDMainColorTableViewCell.xib; sourceTree = "<group>"; };
+		55344CAE22D4204500352C61 /* JSDMainColorTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDMainColorTableViewCell.m; sourceTree = "<group>"; };
+		55344CAF22D4204500352C61 /* JSDAssistColorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSDAssistColorCell.m; sourceTree = "<group>"; };
+		55344CB022D4204500352C61 /* JSDAssistColorCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSDAssistColorCell.xib; sourceTree = "<group>"; };
+		55344CB122D4204500352C61 /* JSDAssistColorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDAssistColorCell.h; sourceTree = "<group>"; };
+		55344CB222D4204500352C61 /* JSDMainColorTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDMainColorTableViewCell.h; sourceTree = "<group>"; };
+		55344CB922D4254800352C61 /* JSDMainColor.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = JSDMainColor.plist; sourceTree = "<group>"; };
+		55344CBB22D4271700352C61 /* JSDMainColorModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSDMainColorModel.h; sourceTree = "<group>"; };
+		55344CBC22D4271700352C61 /* JSDMainColorModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSDMainColorModel.m; sourceTree = "<group>"; };
+		55344CC222D430E800352C61 /* UIColor+JSDStyle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+JSDStyle.h"; sourceTree = "<group>"; };
+		55344CC322D430E800352C61 /* UIColor+JSDStyle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JSDStyle.m"; sourceTree = "<group>"; };
+		55344CC522D444CD00352C61 /* JSDAssistColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDAssistColorViewController.h; sourceTree = "<group>"; };
+		55344CC622D444CD00352C61 /* JSDMainColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSDMainColorViewController.h; sourceTree = "<group>"; };
+		55344CC922D449E500352C61 /* JSDAssistColorModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSDAssistColorModel.h; sourceTree = "<group>"; };
+		55344CCA22D449E500352C61 /* JSDAssistColorModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSDAssistColorModel.m; sourceTree = "<group>"; };
+		55344CCC22D450F300352C61 /* JSDAssistColor.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = JSDAssistColor.plist; sourceTree = "<group>"; };
+		55344CCF22D4881C00352C61 /* UIView+JSDFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+JSDFrame.h"; sourceTree = "<group>"; };
+		55344CD022D4881C00352C61 /* UIView+JSDFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+JSDFrame.m"; sourceTree = "<group>"; };
 		55B6EEB822D324D70067E888 /* MaterialColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaterialColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55B6EEBB22D324D70067E888 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		55B6EEBC22D324D70067E888 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -127,6 +159,8 @@
 		55344C6022D33F4200352C61 /* CategoryTool */ = {
 			isa = PBXGroup;
 			children = (
+				55344CCE22D4880D00352C61 /* UIView */,
+				55344CC122D430BF00352C61 /* UIStyle */,
 			);
 			path = CategoryTool;
 			sourceTree = "<group>";
@@ -192,10 +226,68 @@
 		55344C7222D34DE900352C61 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				55344C7322D34DFF00352C61 /* JSDHomeViewController.h */,
-				55344C7422D34DFF00352C61 /* JSDHomeViewController.m */,
+				55344CAC22D4204500352C61 /* View */,
+				55344C9322D41EAA00352C61 /* Model */,
+				55344C9222D41EA100352C61 /* ViewController */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		55344C9222D41EA100352C61 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				55344CC522D444CD00352C61 /* JSDAssistColorViewController.h */,
+				55344C9722D41EB000352C61 /* JSDAssistColorViewController.m */,
+				55344C9E22D41FB600352C61 /* JSDHomeViewController.h */,
+				55344C9F22D41FB600352C61 /* JSDHomeViewController.m */,
+				55344CC622D444CD00352C61 /* JSDMainColorViewController.h */,
+				55344C9422D41EB000352C61 /* JSDMainColorViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		55344C9322D41EAA00352C61 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				55344CBB22D4271700352C61 /* JSDMainColorModel.h */,
+				55344CBC22D4271700352C61 /* JSDMainColorModel.m */,
+				55344CB922D4254800352C61 /* JSDMainColor.plist */,
+				55344CCC22D450F300352C61 /* JSDAssistColor.plist */,
+				55344CC922D449E500352C61 /* JSDAssistColorModel.h */,
+				55344CCA22D449E500352C61 /* JSDAssistColorModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		55344CAC22D4204500352C61 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				55344CB122D4204500352C61 /* JSDAssistColorCell.h */,
+				55344CAF22D4204500352C61 /* JSDAssistColorCell.m */,
+				55344CB022D4204500352C61 /* JSDAssistColorCell.xib */,
+				55344CB222D4204500352C61 /* JSDMainColorTableViewCell.h */,
+				55344CAE22D4204500352C61 /* JSDMainColorTableViewCell.m */,
+				55344CAD22D4204500352C61 /* JSDMainColorTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		55344CC122D430BF00352C61 /* UIStyle */ = {
+			isa = PBXGroup;
+			children = (
+				55344CC222D430E800352C61 /* UIColor+JSDStyle.h */,
+				55344CC322D430E800352C61 /* UIColor+JSDStyle.m */,
+			);
+			path = UIStyle;
+			sourceTree = "<group>";
+		};
+		55344CCE22D4880D00352C61 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				55344CCF22D4881C00352C61 /* UIView+JSDFrame.h */,
+				55344CD022D4881C00352C61 /* UIView+JSDFrame.m */,
+			);
+			path = UIView;
 			sourceTree = "<group>";
 		};
 		55B6EEAF22D324D70067E888 = {
@@ -385,8 +477,12 @@
 			files = (
 				55B6EEC822D324DA0067E888 /* LaunchScreen.storyboard in Resources */,
 				55344C6522D33FEB00352C61 /* Default-568h@2x.png in Resources */,
+				55344CB622D4204500352C61 /* JSDAssistColorCell.xib in Resources */,
 				55B6EEC522D324DA0067E888 /* Assets.xcassets in Resources */,
 				55B6EEC322D324D70067E888 /* Main.storyboard in Resources */,
+				55344CCD22D450F300352C61 /* JSDAssistColor.plist in Resources */,
+				55344CB322D4204500352C61 /* JSDMainColorTableViewCell.xib in Resources */,
+				55344CBA22D4254800352C61 /* JSDMainColor.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,11 +619,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				55344C7122D3490400352C61 /* JSDBaseNavigationController.m in Sources */,
+				55344CCB22D449E500352C61 /* JSDAssistColorModel.m in Sources */,
 				55344C6E22D348CE00352C61 /* JSDBaseViewController.m in Sources */,
+				55344CB422D4204500352C61 /* JSDMainColorTableViewCell.m in Sources */,
 				55344C6A22D3417F00352C61 /* JSDTabBarController.m in Sources */,
-				55344C7522D34DFF00352C61 /* JSDHomeViewController.m in Sources */,
+				55344CA022D41FB600352C61 /* JSDHomeViewController.m in Sources */,
 				55B6EECB22D324DA0067E888 /* main.m in Sources */,
+				55344CB522D4204500352C61 /* JSDAssistColorCell.m in Sources */,
+				55344CB822D4208A00352C61 /* JSDAssistColorViewController.m in Sources */,
+				55344CBD22D4271700352C61 /* JSDMainColorModel.m in Sources */,
+				55344CD122D4881C00352C61 /* UIView+JSDFrame.m in Sources */,
 				55B6EEBD22D324D70067E888 /* AppDelegate.m in Sources */,
+				55344CB722D4208700352C61 /* JSDMainColorViewController.m in Sources */,
+				55344CC422D430E800352C61 /* UIColor+JSDStyle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

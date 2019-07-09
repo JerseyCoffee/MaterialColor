@@ -99,6 +99,7 @@ PODS:
     - MaterialComponents/private/Math
   - MDFInternationalization (2.0.0)
   - MDFTextAccessibility (2.0.0)
+  - MJExtension (3.0.17)
   - MJRefresh (3.2.0)
 
 DEPENDENCIES:
@@ -110,6 +111,7 @@ DEPENDENCIES:
   - MaterialComponents/Buttons
   - MaterialComponents/CollectionCells
   - MaterialComponents/Collections
+  - MJExtension
   - MJRefresh
 
 SPEC REPOS:
@@ -120,6 +122,7 @@ SPEC REPOS:
     - MaterialComponents
     - MDFInternationalization
     - MDFTextAccessibility
+    - MJExtension
     - MJRefresh
 
 SPEC CHECKSUMS:
@@ -129,8 +132,9 @@ SPEC CHECKSUMS:
   MaterialComponents: ea6e7d777ca716eed90e44700be40a91f4c9c4d5
   MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
   MDFTextAccessibility: 85c09a1bd9c321f494348e632a25063bcda35a53
+  MJExtension: 74ec83124a68891619fb7ba9c5c811bbf1691076
   MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
 
-PODFILE CHECKSUM: 419287d523a707e8db57a8fb98727c2b4d723d00
+PODFILE CHECKSUM: 7ab205884091e6ac76a2b33f621aa662d1a119be
 
 COCOAPODS: 1.6.0.beta.2

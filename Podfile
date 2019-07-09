@@ -17,6 +17,8 @@ target 'MaterialColor' do
   pod 'Masonry'
   pod 'MJRefresh'
   pod 'CYLTabBarController', '~> 1.24.0'
+  #数据
+  pod 'MJExtension'
 
   target 'MaterialColorTests' do
     inherit! :search_paths
