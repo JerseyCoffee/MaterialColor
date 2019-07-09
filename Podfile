@@ -7,7 +7,7 @@ target 'MaterialColor' do
 
   # Pods for MaterialColor
 
-  pod 'IconFont', '~> 0.0.2'
+  #pod 'IconFont', '~> 0.0.2'
   #pod 'MaterialComponents'
   pod 'MaterialComponents/ButtonBar'
   pod 'MaterialComponents/Buttons'
@@ -15,7 +15,7 @@ target 'MaterialColor' do
   pod 'MaterialComponents/CollectionCells'
   pod 'MaterialComponents/Collections'
   pod 'Masonry'
-  pod 'MJRefresh'
+  #pod 'MJRefresh'
   pod 'CYLTabBarController', '~> 1.24.0'
   #数据
   pod 'MJExtension'

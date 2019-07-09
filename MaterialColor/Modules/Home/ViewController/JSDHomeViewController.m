@@ -54,6 +54,7 @@ NSString* kJSDEditColorValueNotification = @"kJSDEditColorValueNotification";
 
 - (void)setupNavBar {
     
+    [self.navigationController.navigationBar setTitleTextAttributes:@{NSFontAttributeName:[UIFont fontWithName:@"Helvetica" size:20.0] ,NSForegroundColorAttributeName:[UIColor blackColor]}];
     self.navigationItem.title = @"Red";
 }
 
@@ -102,16 +103,13 @@ NSString* kJSDEditColorValueNotification = @"kJSDEditColorValueNotification";
 
 - (void)navigationTitleNotification:(NSNotification *)notification {
     
-    
     NSDictionary* object = notification.object;
     NSString* colorName = [object objectForKey:@"colorName"];
     NSNumber* indexNumber = [object objectForKey:@"index"];
     NSInteger index = indexNumber.integerValue;
     
     [self.assistColorVC setColorModelArray:self.assitColorData[index]];
-//    self.navigationItem.title = [NSString stringWithFormat:@"%@--index:%ld", colorName, index];
     self.navigationItem.title = colorName;
-    
 }
 
 - (void)copyColorValueNotification:(NSNotification *)notification {
@@ -120,16 +118,16 @@ NSString* kJSDEditColorValueNotification = @"kJSDEditColorValueNotification";
 
     UIPasteboard *pasteboard = [UIPasteboard generalPasteboard];
     pasteboard.string = colorValueName;
-    UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"Copy to the clipboard!" message:[NSString stringWithFormat:@"colorValue: %@", colorValueName] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
+    UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"Copy to the clipboard!" message:[NSString stringWithFormat:@"ColorHex: %@", colorValueName] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
     [alert show];
     
 }
 
 - (void)editColorValueNotification:(NSNotification *)notification {
     
-    JSDAssistColorModel* model = notification.object;
-    
-    JSDEditColorViewController* editViewController = [[JSDEditColorViewController alloc] init];
+//    JSDAssistColorModel* model = notification.object;
+//
+//    JSDEditColorViewController* editViewController = [[JSDEditColorViewController alloc] init];
 //    [self.navigationController pushViewController:editViewController animated:YES];
 }
 

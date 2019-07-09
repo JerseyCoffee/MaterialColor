@@ -2,7 +2,6 @@ PODS:
   - CYLTabBarController (1.24.1):
     - CYLTabBarController/Core (= 1.24.1)
   - CYLTabBarController/Core (1.24.1)
-  - IconFont (0.0.2)
   - Masonry (1.1.0)
   - MaterialComponents/AnimationTiming (84.0.0)
   - MaterialComponents/AppBar (84.0.0):
@@ -100,11 +99,9 @@ PODS:
   - MDFInternationalization (2.0.0)
   - MDFTextAccessibility (2.0.0)
   - MJExtension (3.0.17)
-  - MJRefresh (3.2.0)
 
 DEPENDENCIES:
   - CYLTabBarController (~> 1.24.0)
-  - IconFont (~> 0.0.2)
   - Masonry
   - MaterialComponents/AppBar
   - MaterialComponents/ButtonBar
@@ -112,29 +109,24 @@ DEPENDENCIES:
   - MaterialComponents/CollectionCells
   - MaterialComponents/Collections
   - MJExtension
-  - MJRefresh
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - CYLTabBarController
-    - IconFont
     - Masonry
     - MaterialComponents
     - MDFInternationalization
     - MDFTextAccessibility
     - MJExtension
-    - MJRefresh
 
 SPEC CHECKSUMS:
   CYLTabBarController: 46fa053a2fb165095e04792431ad91a759bb7f9f
-  IconFont: 2ea71fd37ea03acdb6025050dd36318de9fa37d9
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MaterialComponents: ea6e7d777ca716eed90e44700be40a91f4c9c4d5
   MDFInternationalization: 010097556d6b09d2c4ea38e0820ea6d37be6a314
   MDFTextAccessibility: 85c09a1bd9c321f494348e632a25063bcda35a53
   MJExtension: 74ec83124a68891619fb7ba9c5c811bbf1691076
-  MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
 
-PODFILE CHECKSUM: 7ab205884091e6ac76a2b33f621aa662d1a119be
+PODFILE CHECKSUM: db3b0a29203a1d7b31be6c35907ac72e4f1fedb5
 
-COCOAPODS: 1.6.0.beta.2
+COCOAPODS: 1.6.1
