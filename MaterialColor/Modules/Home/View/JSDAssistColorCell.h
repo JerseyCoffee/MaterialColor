@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface JSDAssistColorCell : UITableViewCell
 
+@property (weak, nonatomic) IBOutlet MDCButton *colorCopyButton;
 @property (weak, nonatomic) IBOutlet MDCButton *colorButton;
 @property (nonatomic, strong) JSDAssistColorModel* model;
 

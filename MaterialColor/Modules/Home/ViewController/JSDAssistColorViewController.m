@@ -92,8 +92,11 @@ NSString* const kJSDAssistColorCell = @"JSDAssistColorCell";
     JSDAssistColorModel* model = [self.colorModelArray objectAtIndex:indexPath.section];
     [cell setModel:model];
     cell.colorButton.tag = indexPath.section;
-    [cell.colorButton removeTarget:self action:@selector(onTouchColor:) forControlEvents:UIControlEventTouchUpInside];
-    [cell.colorButton addTarget:self action:@selector(onTouchColor:) forControlEvents:UIControlEventTouchUpInside];
+    cell.colorCopyButton.tag = indexPath.section;
+    [cell.colorCopyButton removeTarget:self action:@selector(onTouchColorCopy:) forControlEvents:UIControlEventTouchUpInside];
+    [cell.colorCopyButton addTarget:self action:@selector(onTouchColorCopy:) forControlEvents:UIControlEventTouchUpInside];
+    [cell.colorButton removeTarget:self action:@selector(onTouchColorEdit:) forControlEvents:UIControlEventTouchUpInside];
+    [cell.colorButton addTarget:self action:@selector(onTouchColorEdit:) forControlEvents:UIControlEventTouchUpInside];
     
     return cell;
 }
@@ -138,11 +141,17 @@ NSString* const kJSDAssistColorCell = @"JSDAssistColorCell";
 
 #pragma mark - 5.Event Response
 
-- (void)onTouchColor:(MDCButton *)sender {
+- (void)onTouchColorCopy:(MDCButton *)sender {
     
     NSString* colorValueName = self.colorModelArray[sender.tag].colorValueName;
     
     [[NSNotificationCenter defaultCenter] postNotificationName:kJSDCopyColorValueNotification object:colorValueName];
+}
+
+- (void)onTouchColorEdit:(MDCButton *)sender {
+    
+    JSDAssistColorModel* colorModel = self.colorModelArray[sender.tag];
+    [[NSNotificationCenter defaultCenter] postNotificationName:kJSDEditColorValueNotification object:colorModel];
 }
 
 #pragma mark - 6.Private Methods

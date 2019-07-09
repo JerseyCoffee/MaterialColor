@@ -43,10 +43,12 @@
         self.numberLabel.textColor = [UIColor jsd_colorWithHexString:@"#000000"];
         self.colorValueLabel.textColor = [UIColor jsd_colorWithHexString:@"#000000"];
         self.colorNameLabel.textColor = [UIColor jsd_colorWithHexString:@"#000000"];
+        self.colorCopyButton.titleLabel.textColor = [UIColor jsd_colorWithHexString:@"#000000"];
     } else {
         self.numberLabel.textColor = [UIColor jsd_colorWithHexString:@"#ffffff"];
         self.colorValueLabel.textColor = [UIColor jsd_colorWithHexString:@"#ffffff"];
         self.colorNameLabel.textColor = [UIColor jsd_colorWithHexString:@"#ffffff"];
+        self.colorCopyButton.titleLabel.textColor = [UIColor jsd_colorWithHexString:@"#ffffff"];
     }
 }
 

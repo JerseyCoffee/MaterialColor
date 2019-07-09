@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 extern NSString* kJSDNavigationTitleNotification;
 extern NSString* kJSDCopyColorValueNotification;
+extern NSString* kJSDEditColorValueNotification;
 @interface JSDHomeViewController : JSDBaseViewController
 
 @end

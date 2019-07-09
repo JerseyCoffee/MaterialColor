@@ -41,6 +41,16 @@
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aDR-hH-1Gv">
                         <rect key="frame" x="310" y="0.0" width="10" height="44"/>
                     </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h6e-Ja-Zil" customClass="MDCButton">
+                        <rect key="frame" x="205" y="8" width="85" height="28"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="85" id="CLQ-GA-pAa"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                        <state key="normal" title="Copy">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                    </button>
                 </subviews>
                 <constraints>
                     <constraint firstItem="s6h-Ys-TsF" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="0EX-iA-c4T"/>
@@ -48,13 +58,17 @@
                     <constraint firstItem="NZ0-o9-XUu" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="CyX-Px-KW3"/>
                     <constraint firstItem="aDR-hH-1Gv" firstAttribute="leading" secondItem="NZ0-o9-XUu" secondAttribute="trailing" id="EPc-pe-Knp"/>
                     <constraint firstItem="NZ0-o9-XUu" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Gbi-Hu-Mbd"/>
+                    <constraint firstItem="h6e-Ja-Zil" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Ioe-zP-1rz"/>
+                    <constraint firstItem="h6e-Ja-Zil" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="Ken-OR-wgX"/>
                     <constraint firstItem="s6h-Ys-TsF" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="MZ3-Ha-Jr8"/>
                     <constraint firstAttribute="trailing" secondItem="4Xr-wg-yUY" secondAttribute="trailing" constant="20" id="Pge-w8-4e2"/>
                     <constraint firstAttribute="trailing" secondItem="aDR-hH-1Gv" secondAttribute="trailing" id="RGj-BW-uUH"/>
                     <constraint firstItem="OuJ-Ov-6n5" firstAttribute="leading" secondItem="s6h-Ys-TsF" secondAttribute="leading" id="Sws-2g-LoG"/>
                     <constraint firstItem="aDR-hH-1Gv" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="ev8-Ek-KO1"/>
                     <constraint firstAttribute="bottom" secondItem="NZ0-o9-XUu" secondAttribute="bottom" id="iPP-QW-i8a"/>
+                    <constraint firstItem="aDR-hH-1Gv" firstAttribute="leading" secondItem="h6e-Ja-Zil" secondAttribute="trailing" constant="20" id="iRP-X4-sMB"/>
                     <constraint firstAttribute="trailing" secondItem="NZ0-o9-XUu" secondAttribute="trailing" constant="10" id="mE3-uS-TsU"/>
+                    <constraint firstAttribute="bottom" secondItem="h6e-Ja-Zil" secondAttribute="bottom" constant="8" id="mGa-aT-9yX"/>
                     <constraint firstAttribute="bottom" secondItem="OuJ-Ov-6n5" secondAttribute="bottom" constant="15" id="tmH-VT-Ttn"/>
                     <constraint firstAttribute="bottom" secondItem="aDR-hH-1Gv" secondAttribute="bottom" id="yhR-bZ-vkQ"/>
                 </constraints>
@@ -62,6 +76,7 @@
             <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
             <connections>
                 <outlet property="colorButton" destination="NZ0-o9-XUu" id="LdQ-Qg-de0"/>
+                <outlet property="colorCopyButton" destination="h6e-Ja-Zil" id="Mhu-LJ-Yz3"/>
                 <outlet property="colorNameLabel" destination="4Xr-wg-yUY" id="t7y-1K-iuf"/>
                 <outlet property="colorValueLabel" destination="OuJ-Ov-6n5" id="ats-tq-sW8"/>
                 <outlet property="numberLabel" destination="s6h-Ys-TsF" id="M1c-R0-LKQ"/>

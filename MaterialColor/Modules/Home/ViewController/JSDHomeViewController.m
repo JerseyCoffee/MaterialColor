@@ -12,9 +12,11 @@
 #import "JSDAssistColorViewController.h"
 #import "JSDAssistColorModel.h"
 #import "JSDPublic.h"
+#import "JSDEditColorViewController.h"
 
 NSString* kJSDNavigationTitleNotification = @"JSDNavigationTitleNotification";
 NSString* kJSDCopyColorValueNotification = @"kJSDCopyColorValueNotification";
+NSString* kJSDEditColorValueNotification = @"kJSDEditColorValueNotification";
 
 @interface JSDHomeViewController ()
 
@@ -94,6 +96,8 @@ NSString* kJSDCopyColorValueNotification = @"kJSDCopyColorValueNotification";
     
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(navigationTitleNotification:) name:kJSDNavigationTitleNotification object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(copyColorValueNotification:) name:kJSDCopyColorValueNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(editColorValueNotification:) name:kJSDEditColorValueNotification object:nil];
+    
 }
 
 - (void)navigationTitleNotification:(NSNotification *)notification {
@@ -119,6 +123,14 @@ NSString* kJSDCopyColorValueNotification = @"kJSDCopyColorValueNotification";
     UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"Copy to the clipboard!" message:[NSString stringWithFormat:@"colorValue: %@", colorValueName] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
     [alert show];
     
+}
+
+- (void)editColorValueNotification:(NSNotification *)notification {
+    
+    JSDAssistColorModel* model = notification.object;
+    
+    JSDEditColorViewController* editViewController = [[JSDEditColorViewController alloc] init];
+//    [self.navigationController pushViewController:editViewController animated:YES];
 }
 
 #pragma mark - 7.GET & SET

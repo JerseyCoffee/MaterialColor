@@ -24,6 +24,7 @@
 		55344CCB22D449E500352C61 /* JSDAssistColorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 55344CCA22D449E500352C61 /* JSDAssistColorModel.m */; };
 		55344CCD22D450F300352C61 /* JSDAssistColor.plist in Resources */ = {isa = PBXBuildFile; fileRef = 55344CCC22D450F300352C61 /* JSDAssistColor.plist */; };
 		55344CD122D4881C00352C61 /* UIView+JSDFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 55344CD022D4881C00352C61 /* UIView+JSDFrame.m */; };
+		55344CD822D49A6400352C61 /* JSDEditColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55344CD722D49A6400352C61 /* JSDEditColorViewController.m */; };
 		55B6EEBD22D324D70067E888 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B6EEBC22D324D70067E888 /* AppDelegate.m */; };
 		55B6EEC322D324D70067E888 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55B6EEC122D324D70067E888 /* Main.storyboard */; };
 		55B6EEC522D324DA0067E888 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55B6EEC422D324DA0067E888 /* Assets.xcassets */; };
@@ -88,6 +89,8 @@
 		55344CCC22D450F300352C61 /* JSDAssistColor.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = JSDAssistColor.plist; sourceTree = "<group>"; };
 		55344CCF22D4881C00352C61 /* UIView+JSDFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+JSDFrame.h"; sourceTree = "<group>"; };
 		55344CD022D4881C00352C61 /* UIView+JSDFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+JSDFrame.m"; sourceTree = "<group>"; };
+		55344CD622D49A6400352C61 /* JSDEditColorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSDEditColorViewController.h; sourceTree = "<group>"; };
+		55344CD722D49A6400352C61 /* JSDEditColorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSDEditColorViewController.m; sourceTree = "<group>"; };
 		55B6EEB822D324D70067E888 /* MaterialColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaterialColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55B6EEBB22D324D70067E888 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		55B6EEBC22D324D70067E888 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -142,6 +145,7 @@
 		55344C5E22D33F1E00352C61 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				55344CD222D49A3400352C61 /* Edit */,
 				55344C7222D34DE900352C61 /* Home */,
 			);
 			path = Modules;
@@ -288,6 +292,39 @@
 				55344CD022D4881C00352C61 /* UIView+JSDFrame.m */,
 			);
 			path = UIView;
+			sourceTree = "<group>";
+		};
+		55344CD222D49A3400352C61 /* Edit */ = {
+			isa = PBXGroup;
+			children = (
+				55344CD522D49A4E00352C61 /* Model */,
+				55344CD422D49A4700352C61 /* View */,
+				55344CD322D49A4000352C61 /* ViewController */,
+			);
+			path = Edit;
+			sourceTree = "<group>";
+		};
+		55344CD322D49A4000352C61 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				55344CD622D49A6400352C61 /* JSDEditColorViewController.h */,
+				55344CD722D49A6400352C61 /* JSDEditColorViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		55344CD422D49A4700352C61 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		55344CD522D49A4E00352C61 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		55B6EEAF22D324D70067E888 = {
@@ -628,6 +665,7 @@
 				55344CB522D4204500352C61 /* JSDAssistColorCell.m in Sources */,
 				55344CB822D4208A00352C61 /* JSDAssistColorViewController.m in Sources */,
 				55344CBD22D4271700352C61 /* JSDMainColorModel.m in Sources */,
+				55344CD822D49A6400352C61 /* JSDEditColorViewController.m in Sources */,
 				55344CD122D4881C00352C61 /* UIView+JSDFrame.m in Sources */,
 				55B6EEBD22D324D70067E888 /* AppDelegate.m in Sources */,
 				55344CB722D4208700352C61 /* JSDMainColorViewController.m in Sources */,
@@ -804,14 +842,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = J4D5D57QCL;
+				DEVELOPMENT_TEAM = WMH655YJ87;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/MaterialColor/Supporting Files/JSDPrefixHeader.pch";
 				INFOPLIST_FILE = "MaterialColor/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jerseyCafe.MaterialColor;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jerseyCafe.MaterialColorMood;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -823,14 +862,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = J4D5D57QCL;
+				DEVELOPMENT_TEAM = WMH655YJ87;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/MaterialColor/Supporting Files/JSDPrefixHeader.pch";
 				INFOPLIST_FILE = "MaterialColor/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.jerseyCafe.MaterialColor;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jerseyCafe.MaterialColorMood;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
