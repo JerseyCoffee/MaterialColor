@@ -13,6 +13,7 @@
 #import "JSDMainColorModel.h"
 #import "JSDPublic.h"
 #import "JSDHomeViewController.h"
+#import <AudioToolBox/AudioToolbox.h>
 
 @interface JSDMainColorViewController () <UITableViewDelegate, UITableViewDataSource>
 
@@ -57,7 +58,7 @@
     
     [self.view addSubview:self.tableView];
     [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.right.top.bottom.mas_equalTo(0);
+        make.left.right.top.mas_equalTo(0);
         if (@available(iOS 11.0,*)) {
             make.bottom.mas_equalTo(self.view.mas_safeAreaLayoutGuideBottom);
         }else{
@@ -163,6 +164,8 @@
         @"index": @(sender.tag)
     };
     [[NSNotificationCenter defaultCenter] postNotificationName:kJSDNavigationTitleNotification object:object];
+    
+//    AudioServicesPlaySystemSound(1520);
 }
 
 #pragma mark - 6.Private Methods

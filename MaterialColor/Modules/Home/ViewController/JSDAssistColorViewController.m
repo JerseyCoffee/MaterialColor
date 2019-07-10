@@ -55,7 +55,7 @@ NSString* const kJSDAssistColorCell = @"JSDAssistColorCell";
     
     [self.view addSubview:self.tableView];
     [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.right.top.bottom.mas_equalTo(0);
+        make.left.right.top.mas_equalTo(0);
         if (@available(iOS 11.0,*)) {
             make.bottom.mas_equalTo(self.view.mas_safeAreaLayoutGuideBottom);
         }else{
@@ -152,6 +152,22 @@ NSString* const kJSDAssistColorCell = @"JSDAssistColorCell";
     
     JSDAssistColorModel* colorModel = self.colorModelArray[sender.tag];
     [[NSNotificationCenter defaultCenter] postNotificationName:kJSDEditColorValueNotification object:colorModel];
+    
+    /*建立音效檔關聯性*/
+//    NSURL *soundURL =[[NSBundle mainBundle] URLForResource:@"5080" withExtension:@"wav"];
+//
+//    /*將程式中的音效檔與systemId對應在一起*/
+//    AudioServicesCreateSystemSoundID((__bridge CFURLRef)(soundURL), &(_soundFileObject));
+//
+//    /*soundFileObject對應到所播放的音效*/
+//    AudioServicesPlaySystemSound(_soundFileObject);
+//    if (@available(iOS 10.0, *)) {
+//        UIImpactFeedbackGenerator *feedBackGenertor = [[UIImpactFeedbackGenerator alloc] initWithStyle:UIImpactFeedbackStyleMedium];
+//        [feedBackGenertor impactOccurred];
+//    } else {
+//        // Fallback on earlier versions
+//        AudioServicesPlaySystemSound(1520);
+//    }
 }
 
 #pragma mark - 6.Private Methods

@@ -13,6 +13,9 @@
 #import "JSDAssistColorModel.h"
 #import "JSDPublic.h"
 #import "JSDEditColorViewController.h"
+#import <MaterialButtons.h>
+#import <AudioToolBox/AudioToolbox.h>
+#import <UIKit/UIFeedbackGenerator.h>
 
 NSString* kJSDNavigationTitleNotification = @"JSDNavigationTitleNotification";
 NSString* kJSDCopyColorValueNotification = @"kJSDCopyColorValueNotification";
@@ -23,6 +26,7 @@ NSString* kJSDEditColorValueNotification = @"kJSDEditColorValueNotification";
 @property (strong, nonatomic) JSDMainColorViewController* mainColorVC;
 @property (strong, nonatomic) JSDAssistColorViewController* assistColorVC;
 @property (nonatomic, strong) NSArray<NSArray <JSDAssistColorModel* >* >* assitColorData;
+@property (nonatomic, assign) BOOL isPlaySound;
 
 @end
 
@@ -56,6 +60,18 @@ NSString* kJSDEditColorValueNotification = @"kJSDEditColorValueNotification";
     
     [self.navigationController.navigationBar setTitleTextAttributes:@{NSFontAttributeName:[UIFont fontWithName:@"Helvetica" size:20.0] ,NSForegroundColorAttributeName:[UIColor blackColor]}];
     self.navigationItem.title = @"Red";
+
+    // 默认未设置过 NO, NO 对应开启;
+    self.isPlaySound = [[NSUserDefaults standardUserDefaults] objectForKey:@"isPlaySound"];
+    UIButton* itemButton = [[MDCFlatButton alloc] init];
+    
+    [itemButton setImage:[UIImage imageNamed:@"bell"] forState:UIControlStateNormal];
+    [itemButton setImage:[UIImage imageNamed:@"bell_close"] forState:UIControlStateSelected];
+    [itemButton sizeToFit];
+    [itemButton addTarget:self action:@selector(onTouchSound:) forControlEvents:UIControlEventTouchUpInside];
+    itemButton.selected = self.isPlaySound;
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:itemButton];
+    
 }
 
 - (void)setupView {
@@ -91,6 +107,14 @@ NSString* kJSDEditColorValueNotification = @"kJSDEditColorValueNotification";
 
 #pragma mark - 5.Event Response
 
+- (void)onTouchSound:(MDCButton* )sender {
+    
+    sender.selected = !sender.isSelected;
+    self.isPlaySound = sender.isSelected;
+    [[NSUserDefaults standardUserDefaults] setBool:self.isPlaySound forKey:@"isPlaySound"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+}
+
 #pragma mark - 6.Private Methods
 
 - (void)setupNotification {
@@ -110,6 +134,16 @@ NSString* kJSDEditColorValueNotification = @"kJSDEditColorValueNotification";
     
     [self.assistColorVC setColorModelArray:self.assitColorData[index]];
     self.navigationItem.title = colorName;
+    
+    if (!self.isPlaySound) {
+        if (@available(iOS 10.0, *)) {
+            UIImpactFeedbackGenerator *feedBackGenertor = [[UIImpactFeedbackGenerator alloc] initWithStyle:UIImpactFeedbackStyleMedium];
+            [feedBackGenertor impactOccurred];
+        } else {
+            // Fallback on earlier versions
+            AudioServicesPlaySystemSound(1520);
+        }
+    }
 }
 
 - (void)copyColorValueNotification:(NSNotification *)notification {
@@ -120,7 +154,6 @@ NSString* kJSDEditColorValueNotification = @"kJSDEditColorValueNotification";
     pasteboard.string = colorValueName;
     UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"Copy to the clipboard!" message:[NSString stringWithFormat:@"ColorHex: %@", colorValueName] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
     [alert show];
-    
 }
 
 - (void)editColorValueNotification:(NSNotification *)notification {
@@ -129,6 +162,15 @@ NSString* kJSDEditColorValueNotification = @"kJSDEditColorValueNotification";
 //
 //    JSDEditColorViewController* editViewController = [[JSDEditColorViewController alloc] init];
 //    [self.navigationController pushViewController:editViewController animated:YES];
+    if (!self.isPlaySound) {
+        if (@available(iOS 10.0, *)) {
+            UIImpactFeedbackGenerator *feedBackGenertor = [[UIImpactFeedbackGenerator alloc] initWithStyle:UIImpactFeedbackStyleMedium];
+            [feedBackGenertor impactOccurred];
+        } else {
+            // Fallback on earlier versions
+            AudioServicesPlaySystemSound(1520);
+        }
+    }
 }
 
 #pragma mark - 7.GET & SET
