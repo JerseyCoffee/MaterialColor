@@ -152,6 +152,15 @@ NSString* kJSDEditColorValueNotification = @"kJSDEditColorValueNotification";
 
     UIPasteboard *pasteboard = [UIPasteboard generalPasteboard];
     pasteboard.string = colorValueName;
+    if (!self.isPlaySound) {
+        if (@available(iOS 10.0, *)) {
+            UIImpactFeedbackGenerator *feedBackGenertor = [[UIImpactFeedbackGenerator alloc] initWithStyle:UIImpactFeedbackStyleMedium];
+            [feedBackGenertor impactOccurred];
+        } else {
+            // Fallback on earlier versions
+            AudioServicesPlaySystemSound(1520);
+        }
+    }
     UIAlertView* alert = [[UIAlertView alloc] initWithTitle:@"Copy to the clipboard!" message:[NSString stringWithFormat:@"ColorHex: %@", colorValueName] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil];
     [alert show];
 }

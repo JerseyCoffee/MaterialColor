@@ -20,8 +20,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-
-    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     JSDHomeViewController* homeViewController = [[JSDHomeViewController alloc] init];
     JSDBaseNavigationController* navigationController = [[JSDBaseNavigationController alloc] initWithRootViewController:homeViewController];
     self.window.rootViewController = navigationController;
