@@ -82,6 +82,7 @@ NSString* kJSDEditColorValueNotification = @"kJSDEditColorValueNotification";
     [self addChildViewController:_mainColorVC];
     [self.view addSubview:_mainColorVC.view];
     
+
     CGFloat mainWidth = 65;
     _mainColorVC.view.frame = CGRectMake(0, 0, mainWidth, View_Height);
     
