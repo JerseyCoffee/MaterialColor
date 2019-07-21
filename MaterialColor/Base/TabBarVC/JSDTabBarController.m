@@ -10,6 +10,7 @@
 #import "JSDHomeViewController.h"
 #import "JSDBaseNavigationController.h"
 #import "JSDColorPaletteVC.h"
+#import "JSDPublic.h"
 
 @interface JSDTabBarController ()
 
@@ -39,19 +40,19 @@
 
 - (void)customizeTabBarAppearance:(CYLTabBarController *)tabBarController {
     
-    
+    [tabBarController setTintColor:[UIColor jsd_colorWithHexString:@"#1288db"]];
 }
 
 - (NSArray *)tabBarItemsAttributesForController {
     NSDictionary *firstTabBarItemsAttributes = @{
         CYLTabBarItemTitle : @"Palette",
-        CYLTabBarItemImage : @"home_highlight",
-        CYLTabBarItemSelectedImage : @"home_highlight",  /* NSString and UIImage are supported*/
+        CYLTabBarItemImage : @"home_default",
+        CYLTabBarItemSelectedImage : @"home_selected",  /* NSString and UIImage are supported*/
     };
     NSDictionary *secondTabBarItemsAttributes = @{
         CYLTabBarItemTitle : @"Rainbow",
-        CYLTabBarItemImage : @"fishpond_highlight",
-        CYLTabBarItemSelectedImage : @"fishpond_highlight",
+        CYLTabBarItemImage : @"mood_defalut",
+        CYLTabBarItemSelectedImage : @"mood_selected",
     };
     
     
@@ -59,6 +60,7 @@
         firstTabBarItemsAttributes,
         secondTabBarItemsAttributes,
     ];
+    
     return tabBarItemsAttributes;
 }
 

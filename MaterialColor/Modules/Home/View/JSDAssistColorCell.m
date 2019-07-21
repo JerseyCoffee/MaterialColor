@@ -24,7 +24,7 @@
     [super awakeFromNib];
     // Initialization code
     
-    self.colorButton.layer.cornerRadius = 12.5;
+//    self.colorButton.layer.cornerRadius = 12.5;
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

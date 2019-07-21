@@ -41,11 +41,8 @@
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aDR-hH-1Gv">
                         <rect key="frame" x="311" y="0.0" width="10" height="94.5"/>
                     </button>
-                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h6e-Ja-Zil" customClass="MDCButton">
-                        <rect key="frame" x="206" y="8" width="85" height="78.5"/>
-                        <constraints>
-                            <constraint firstAttribute="width" constant="85" id="CLQ-GA-pAa"/>
-                        </constraints>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h6e-Ja-Zil" customClass="MDCFloatingButton">
+                        <rect key="frame" x="252" y="32" width="39" height="31"/>
                         <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="16"/>
                         <state key="normal" title="Copy">
                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -59,7 +56,6 @@
                     <constraint firstItem="aDR-hH-1Gv" firstAttribute="leading" secondItem="NZ0-o9-XUu" secondAttribute="trailing" id="EPc-pe-Knp"/>
                     <constraint firstItem="NZ0-o9-XUu" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Gbi-Hu-Mbd"/>
                     <constraint firstItem="h6e-Ja-Zil" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Ioe-zP-1rz"/>
-                    <constraint firstItem="h6e-Ja-Zil" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="Ken-OR-wgX"/>
                     <constraint firstItem="s6h-Ys-TsF" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="MZ3-Ha-Jr8"/>
                     <constraint firstAttribute="trailing" secondItem="4Xr-wg-yUY" secondAttribute="trailing" constant="20" id="Pge-w8-4e2"/>
                     <constraint firstAttribute="trailing" secondItem="aDR-hH-1Gv" secondAttribute="trailing" id="RGj-BW-uUH"/>
@@ -68,7 +64,6 @@
                     <constraint firstAttribute="bottom" secondItem="NZ0-o9-XUu" secondAttribute="bottom" id="iPP-QW-i8a"/>
                     <constraint firstItem="aDR-hH-1Gv" firstAttribute="leading" secondItem="h6e-Ja-Zil" secondAttribute="trailing" constant="20" id="iRP-X4-sMB"/>
                     <constraint firstAttribute="trailing" secondItem="NZ0-o9-XUu" secondAttribute="trailing" constant="10" id="mE3-uS-TsU"/>
-                    <constraint firstAttribute="bottom" secondItem="h6e-Ja-Zil" secondAttribute="bottom" constant="8" id="mGa-aT-9yX"/>
                     <constraint firstAttribute="bottom" secondItem="OuJ-Ov-6n5" secondAttribute="bottom" constant="15" id="tmH-VT-Ttn"/>
                     <constraint firstAttribute="bottom" secondItem="aDR-hH-1Gv" secondAttribute="bottom" id="yhR-bZ-vkQ"/>
                 </constraints>

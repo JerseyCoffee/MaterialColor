@@ -40,6 +40,8 @@
 		60C24FD622E467BA0036DB41 /* color1.png in Resources */ = {isa = PBXBuildFile; fileRef = 60C24FD522E467BA0036DB41 /* color1.png */; };
 		60C24FD822E46A6B0036DB41 /* color2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60C24FD722E46A6B0036DB41 /* color2.jpg */; };
 		60C24FDA22E46ACC0036DB41 /* color4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 60C24FD922E46ACC0036DB41 /* color4.jpeg */; };
+		60C24FE122E47E870036DB41 /* JSDMyCenterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C24FE022E47E870036DB41 /* JSDMyCenterVC.m */; };
+		60C24FE422E481460036DB41 /* JSDFeedbackVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C24FE322E481460036DB41 /* JSDFeedbackVC.m */; };
 		839C1459C0861A9A799E657B /* libPods-MaterialColorUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B67DB19B90CB316F33D4427 /* libPods-MaterialColorUITests.a */; };
 		9686B564C5B5F5D8A9B58E0F /* libPods-MaterialColorTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FCB36C9484CDC8C05B328CF /* libPods-MaterialColorTests.a */; };
 		9803288E8EB8BC2A3189E5A6 /* libPods-MaterialColor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C0214F944E1447F3D9520F /* libPods-MaterialColor.a */; };
@@ -125,6 +127,10 @@
 		60C24FD522E467BA0036DB41 /* color1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color1.png; sourceTree = "<group>"; };
 		60C24FD722E46A6B0036DB41 /* color2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = color2.jpg; sourceTree = "<group>"; };
 		60C24FD922E46ACC0036DB41 /* color4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = color4.jpeg; sourceTree = "<group>"; };
+		60C24FDF22E47E870036DB41 /* JSDMyCenterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSDMyCenterVC.h; sourceTree = "<group>"; };
+		60C24FE022E47E870036DB41 /* JSDMyCenterVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSDMyCenterVC.m; sourceTree = "<group>"; };
+		60C24FE222E481460036DB41 /* JSDFeedbackVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSDFeedbackVC.h; sourceTree = "<group>"; };
+		60C24FE322E481460036DB41 /* JSDFeedbackVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSDFeedbackVC.m; sourceTree = "<group>"; };
 		667F8C5AB4DAF2F8BB935BF3 /* Pods-MaterialColorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaterialColorTests.release.xcconfig"; path = "Target Support Files/Pods-MaterialColorTests/Pods-MaterialColorTests.release.xcconfig"; sourceTree = "<group>"; };
 		6B67DB19B90CB316F33D4427 /* libPods-MaterialColorUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MaterialColorUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D313915D3733C65B22B0DE2 /* Pods-MaterialColor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaterialColor.release.xcconfig"; path = "Target Support Files/Pods-MaterialColor/Pods-MaterialColor.release.xcconfig"; sourceTree = "<group>"; };
@@ -164,6 +170,7 @@
 		55344C5E22D33F1E00352C61 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				60C24FDB22E47D930036DB41 /* MyCenter */,
 				60C24FBF22E30ACA0036DB41 /* ColorPalette */,
 				55344CD222D49A3400352C61 /* Edit */,
 				55344C7222D34DE900352C61 /* Home */,
@@ -450,6 +457,17 @@
 				60C24FCC22E3179D0036DB41 /* UIColor+JSDStyle.m */,
 			);
 			path = Tool;
+			sourceTree = "<group>";
+		};
+		60C24FDB22E47D930036DB41 /* MyCenter */ = {
+			isa = PBXGroup;
+			children = (
+				60C24FDF22E47E870036DB41 /* JSDMyCenterVC.h */,
+				60C24FE022E47E870036DB41 /* JSDMyCenterVC.m */,
+				60C24FE222E481460036DB41 /* JSDFeedbackVC.h */,
+				60C24FE322E481460036DB41 /* JSDFeedbackVC.m */,
+			);
+			path = MyCenter;
 			sourceTree = "<group>";
 		};
 		87E7389F6F7860F4AE07E6A7 /* Frameworks */ = {
@@ -758,6 +776,7 @@
 				55344CB422D4204500352C61 /* JSDMainColorTableViewCell.m in Sources */,
 				55344C6A22D3417F00352C61 /* JSDTabBarController.m in Sources */,
 				60C24FCE22E3179D0036DB41 /* UIColor+JSDStyle.m in Sources */,
+				60C24FE122E47E870036DB41 /* JSDMyCenterVC.m in Sources */,
 				55344CA022D41FB600352C61 /* JSDHomeViewController.m in Sources */,
 				60C24FC522E30B070036DB41 /* JSDColorPaletteVC.m in Sources */,
 				55B6EECB22D324DA0067E888 /* main.m in Sources */,
@@ -768,6 +787,7 @@
 				55344CD122D4881C00352C61 /* UIView+JSDFrame.m in Sources */,
 				60C24FC822E315FB0036DB41 /* JSDColorPaletteView.m in Sources */,
 				55B6EEBD22D324D70067E888 /* AppDelegate.m in Sources */,
+				60C24FE422E481460036DB41 /* JSDFeedbackVC.m in Sources */,
 				55344CB722D4208700352C61 /* JSDMainColorViewController.m in Sources */,
 				55344CC422D430E800352C61 /* UIColor+JSDStyle.m in Sources */,
 			);
@@ -936,7 +956,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 100;
-				DEVELOPMENT_TEAM = WMH655YJ87;
+				DEVELOPMENT_TEAM = 6GD2CA4X64;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/MaterialColor/Supporting Files/JSDPrefixHeader.pch";
 				INFOPLIST_FILE = "MaterialColor/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -945,10 +965,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jerseyCafe.MaterialColorMood;
+				PRODUCT_BUNDLE_IDENTIFIER = com.materialPalette.jerseyCafe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -960,7 +980,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 100;
-				DEVELOPMENT_TEAM = WMH655YJ87;
+				DEVELOPMENT_TEAM = 6GD2CA4X64;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/MaterialColor/Supporting Files/JSDPrefixHeader.pch";
 				INFOPLIST_FILE = "MaterialColor/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -969,10 +989,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jerseyCafe.MaterialColorMood;
+				PRODUCT_BUNDLE_IDENTIFIER = com.materialPalette.jerseyCafe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

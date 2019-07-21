@@ -137,7 +137,7 @@
     self.imageView.layer.masksToBounds = YES;
     self.imageView.backgroundColor = [UIColor jsd_grayColor];
     
-    self.imageView.image = [UIImage imageWithNamed:@"color3" inBundle:[NSBundle mainBundle]];
+    self.imageView.image = [UIImage imageWithNamed:@"color1" inBundle:[NSBundle mainBundle]];
     self.imageView.userInteractionEnabled = YES;
     
     UITapGestureRecognizer* tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(onTouchImageView:)];

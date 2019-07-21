@@ -11,6 +11,7 @@
 #import "JSDColorPaletteView.h"
 #import "JSDPublic.h"
 #import <UIImageView+AXGetColor.h>
+#import "JSDMyCenterVC.h"
 
 @interface JSDColorPaletteVC ()
 
@@ -47,6 +48,9 @@
     
     self.navigationItem.title = @"Color Palette";
     
+    
+    UIBarButtonItem* item = [[UIBarButtonItem alloc] initWithTitle:@"关于" style:UIBarButtonItemStylePlain target:self action:@selector(onTouchLeftBar:)];
+    self.navigationItem.leftBarButtonItem = item;
 }
 
 - (void)setupView {
@@ -72,6 +76,13 @@
 #pragma mark - 4.UITableViewDataSource and UITableViewDelegate
 
 #pragma mark - 5.Event Response
+
+- (void)onTouchLeftBar:(id)sender {
+    
+    JSDMyCenterVC* myVC = JSDMyCenterVC.new;
+    
+    [self.navigationController pushViewController:myVC animated:YES];
+}
 
 #pragma mark - 6.Private Methods
 
