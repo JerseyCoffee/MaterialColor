@@ -30,6 +30,16 @@
 		55B6EECB22D324DA0067E888 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B6EECA22D324DA0067E888 /* main.m */; };
 		55B6EED522D324DA0067E888 /* MaterialColorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B6EED422D324DA0067E888 /* MaterialColorTests.m */; };
 		55B6EEE022D324DA0067E888 /* MaterialColorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B6EEDF22D324DA0067E888 /* MaterialColorUITests.m */; };
+		60C24FC522E30B070036DB41 /* JSDColorPaletteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C24FC422E30B070036DB41 /* JSDColorPaletteVC.m */; };
+		60C24FC822E315FB0036DB41 /* JSDColorPaletteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C24FC722E315FB0036DB41 /* JSDColorPaletteView.m */; };
+		60C24FCA22E316060036DB41 /* JSDColorPaletteView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60C24FC922E316060036DB41 /* JSDColorPaletteView.xib */; };
+		60C24FCE22E3179D0036DB41 /* UIColor+JSDStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 60C24FCC22E3179D0036DB41 /* UIColor+JSDStyle.m */; };
+		60C24FD022E32DFC0036DB41 /* color3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60C24FCF22E32DFC0036DB41 /* color3.jpg */; };
+		60C24FD222E453420036DB41 /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = 60C24FD122E453420036DB41 /* location.png */; };
+		60C24FD422E45C390036DB41 /* color0.png in Resources */ = {isa = PBXBuildFile; fileRef = 60C24FD322E45C390036DB41 /* color0.png */; };
+		60C24FD622E467BA0036DB41 /* color1.png in Resources */ = {isa = PBXBuildFile; fileRef = 60C24FD522E467BA0036DB41 /* color1.png */; };
+		60C24FD822E46A6B0036DB41 /* color2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 60C24FD722E46A6B0036DB41 /* color2.jpg */; };
+		60C24FDA22E46ACC0036DB41 /* color4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 60C24FD922E46ACC0036DB41 /* color4.jpeg */; };
 		839C1459C0861A9A799E657B /* libPods-MaterialColorUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B67DB19B90CB316F33D4427 /* libPods-MaterialColorUITests.a */; };
 		9686B564C5B5F5D8A9B58E0F /* libPods-MaterialColorTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FCB36C9484CDC8C05B328CF /* libPods-MaterialColorTests.a */; };
 		9803288E8EB8BC2A3189E5A6 /* libPods-MaterialColor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8C0214F944E1447F3D9520F /* libPods-MaterialColor.a */; };
@@ -102,6 +112,19 @@
 		55B6EEDF22D324DA0067E888 /* MaterialColorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MaterialColorUITests.m; sourceTree = "<group>"; };
 		55B6EEE122D324DA0067E888 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5804328739A4F20560418714 /* Pods-MaterialColor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaterialColor.debug.xcconfig"; path = "Target Support Files/Pods-MaterialColor/Pods-MaterialColor.debug.xcconfig"; sourceTree = "<group>"; };
+		60C24FC322E30B070036DB41 /* JSDColorPaletteVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSDColorPaletteVC.h; sourceTree = "<group>"; };
+		60C24FC422E30B070036DB41 /* JSDColorPaletteVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSDColorPaletteVC.m; sourceTree = "<group>"; };
+		60C24FC622E315FB0036DB41 /* JSDColorPaletteView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSDColorPaletteView.h; sourceTree = "<group>"; };
+		60C24FC722E315FB0036DB41 /* JSDColorPaletteView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSDColorPaletteView.m; sourceTree = "<group>"; };
+		60C24FC922E316060036DB41 /* JSDColorPaletteView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JSDColorPaletteView.xib; sourceTree = "<group>"; };
+		60C24FCC22E3179D0036DB41 /* UIColor+JSDStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JSDStyle.m"; sourceTree = "<group>"; };
+		60C24FCD22E3179D0036DB41 /* UIColor+JSDStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JSDStyle.h"; sourceTree = "<group>"; };
+		60C24FCF22E32DFC0036DB41 /* color3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = color3.jpg; sourceTree = "<group>"; };
+		60C24FD122E453420036DB41 /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location.png; sourceTree = "<group>"; };
+		60C24FD322E45C390036DB41 /* color0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color0.png; sourceTree = "<group>"; };
+		60C24FD522E467BA0036DB41 /* color1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color1.png; sourceTree = "<group>"; };
+		60C24FD722E46A6B0036DB41 /* color2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = color2.jpg; sourceTree = "<group>"; };
+		60C24FD922E46ACC0036DB41 /* color4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = color4.jpeg; sourceTree = "<group>"; };
 		667F8C5AB4DAF2F8BB935BF3 /* Pods-MaterialColorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaterialColorTests.release.xcconfig"; path = "Target Support Files/Pods-MaterialColorTests/Pods-MaterialColorTests.release.xcconfig"; sourceTree = "<group>"; };
 		6B67DB19B90CB316F33D4427 /* libPods-MaterialColorUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MaterialColorUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D313915D3733C65B22B0DE2 /* Pods-MaterialColor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MaterialColor.release.xcconfig"; path = "Target Support Files/Pods-MaterialColor/Pods-MaterialColor.release.xcconfig"; sourceTree = "<group>"; };
@@ -141,6 +164,7 @@
 		55344C5E22D33F1E00352C61 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				60C24FBF22E30ACA0036DB41 /* ColorPalette */,
 				55344CD222D49A3400352C61 /* Edit */,
 				55344C7222D34DE900352C61 /* Home */,
 			);
@@ -182,6 +206,12 @@
 		55344C6322D33F9E00352C61 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				60C24FD922E46ACC0036DB41 /* color4.jpeg */,
+				60C24FD322E45C390036DB41 /* color0.png */,
+				60C24FD522E467BA0036DB41 /* color1.png */,
+				60C24FD722E46A6B0036DB41 /* color2.jpg */,
+				60C24FD122E453420036DB41 /* location.png */,
+				60C24FCF22E32DFC0036DB41 /* color3.jpg */,
 				55B6EEC122D324D70067E888 /* Main.storyboard */,
 				55B6EEC422D324DA0067E888 /* Assets.xcassets */,
 				55B6EEC922D324DA0067E888 /* Info.plist */,
@@ -347,6 +377,7 @@
 		55B6EEBA22D324D70067E888 /* MaterialColor */ = {
 			isa = PBXGroup;
 			children = (
+				60C24FCB22E317460036DB41 /* Tool */,
 				55344C5E22D33F1E00352C61 /* Modules */,
 				55344C5F22D33F2800352C61 /* Application */,
 				55344C6622D3413600352C61 /* Base */,
@@ -374,6 +405,51 @@
 				55B6EEE122D324DA0067E888 /* Info.plist */,
 			);
 			path = MaterialColorUITests;
+			sourceTree = "<group>";
+		};
+		60C24FBF22E30ACA0036DB41 /* ColorPalette */ = {
+			isa = PBXGroup;
+			children = (
+				60C24FC222E30AE20036DB41 /* ViewController */,
+				60C24FC122E30AD90036DB41 /* Model */,
+				60C24FC022E30AD30036DB41 /* View */,
+			);
+			path = ColorPalette;
+			sourceTree = "<group>";
+		};
+		60C24FC022E30AD30036DB41 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				60C24FC622E315FB0036DB41 /* JSDColorPaletteView.h */,
+				60C24FC722E315FB0036DB41 /* JSDColorPaletteView.m */,
+				60C24FC922E316060036DB41 /* JSDColorPaletteView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		60C24FC122E30AD90036DB41 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		60C24FC222E30AE20036DB41 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				60C24FC322E30B070036DB41 /* JSDColorPaletteVC.h */,
+				60C24FC422E30B070036DB41 /* JSDColorPaletteVC.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		60C24FCB22E317460036DB41 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				60C24FCD22E3179D0036DB41 /* UIColor+JSDStyle.h */,
+				60C24FCC22E3179D0036DB41 /* UIColor+JSDStyle.m */,
+			);
+			path = Tool;
 			sourceTree = "<group>";
 		};
 		87E7389F6F7860F4AE07E6A7 /* Frameworks */ = {
@@ -410,7 +486,7 @@
 				55B6EEB422D324D70067E888 /* Sources */,
 				55B6EEB522D324D70067E888 /* Frameworks */,
 				55B6EEB622D324D70067E888 /* Resources */,
-				1435EB4B75449668D3C3AD81 /* [CP] Copy Pods Resources */,
+				4ED62E2BB7D5D6385FA2610A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -507,10 +583,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				55344CB622D4204500352C61 /* JSDAssistColorCell.xib in Resources */,
+				60C24FD022E32DFC0036DB41 /* color3.jpg in Resources */,
 				55B6EEC522D324DA0067E888 /* Assets.xcassets in Resources */,
 				55B6EEC322D324D70067E888 /* Main.storyboard in Resources */,
+				60C24FD222E453420036DB41 /* location.png in Resources */,
+				60C24FDA22E46ACC0036DB41 /* color4.jpeg in Resources */,
 				55344CCD22D450F300352C61 /* JSDAssistColor.plist in Resources */,
+				60C24FCA22E316060036DB41 /* JSDColorPaletteView.xib in Resources */,
+				60C24FD622E467BA0036DB41 /* color1.png in Resources */,
+				60C24FD422E45C390036DB41 /* color0.png in Resources */,
 				55344CB322D4204500352C61 /* JSDMainColorTableViewCell.xib in Resources */,
+				60C24FD822E46A6B0036DB41 /* color2.jpg in Resources */,
 				55344CBA22D4254800352C61 /* JSDMainColor.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -532,46 +615,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1435EB4B75449668D3C3AD81 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MaterialColor/Pods-MaterialColor-resources.sh",
-				"${PODS_ROOT}/MaterialComponents/components/AppBar/src/MaterialAppBar.bundle",
-				"${PODS_ROOT}/MaterialComponents/components/CollectionCells/src/MaterialCollectionCells.bundle",
-				"${PODS_ROOT}/MaterialComponents/components/Collections/src/MaterialCollections.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents/MaterialIcons_ic_arrow_back.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents/MaterialIcons_ic_check.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents/MaterialIcons_ic_check_circle.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents/MaterialIcons_ic_chevron_right.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents/MaterialIcons_ic_info.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents/MaterialIcons_ic_radio_button_unchecked.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents/MaterialIcons_ic_reorder.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialAppBar.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCollectionCells.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCollections.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons_ic_arrow_back.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons_ic_check.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons_ic_check_circle.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons_ic_chevron_right.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons_ic_info.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons_ic_radio_button_unchecked.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons_ic_reorder.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MaterialColor/Pods-MaterialColor-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		4C2B8E16248C4972150128DC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -592,6 +635,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4ED62E2BB7D5D6385FA2610A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MaterialColor/Pods-MaterialColor-resources.sh",
+				"${PODS_ROOT}/AXKit/AXKit/AXKit.bundle",
+				"${PODS_ROOT}/MaterialComponents/components/ActivityIndicator/src/MaterialActivityIndicator.bundle",
+				"${PODS_ROOT}/MaterialComponents/components/AppBar/src/MaterialAppBar.bundle",
+				"${PODS_ROOT}/MaterialComponents/components/BottomNavigation/src/MaterialBottomNavigation.bundle",
+				"${PODS_ROOT}/MaterialComponents/components/CollectionCells/src/MaterialCollectionCells.bundle",
+				"${PODS_ROOT}/MaterialComponents/components/Collections/src/MaterialCollections.bundle",
+				"${PODS_ROOT}/MaterialComponents/components/Dialogs/src/MaterialDialogs.bundle",
+				"${PODS_ROOT}/MaterialComponents/components/FeatureHighlight/src/MaterialFeatureHighlight.bundle",
+				"${PODS_ROOT}/MaterialComponents/components/PageControl/src/MaterialPageControl.bundle",
+				"${PODS_ROOT}/MaterialComponents/components/Snackbar/src/MaterialSnackbar.bundle",
+				"${PODS_ROOT}/MaterialComponents/components/Tabs/src/MaterialTabs.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents/MaterialIcons_ic_arrow_back.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents/MaterialIcons_ic_check.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents/MaterialIcons_ic_check_circle.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents/MaterialIcons_ic_chevron_right.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents/MaterialIcons_ic_color_lens.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents/MaterialIcons_ic_help_outline.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents/MaterialIcons_ic_info.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents/MaterialIcons_ic_more_horiz.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents/MaterialIcons_ic_radio_button_unchecked.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents/MaterialIcons_ic_reorder.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/MaterialComponents/MaterialIcons_ic_settings.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AXKit.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialActivityIndicator.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialAppBar.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialBottomNavigation.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCollectionCells.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCollections.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialDialogs.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialFeatureHighlight.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialPageControl.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialSnackbar.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialTabs.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons_ic_arrow_back.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons_ic_check.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons_ic_check_circle.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons_ic_chevron_right.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons_ic_color_lens.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons_ic_help_outline.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons_ic_info.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons_ic_more_horiz.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons_ic_radio_button_unchecked.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons_ic_reorder.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons_ic_settings.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MaterialColor/Pods-MaterialColor-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DD13184FDD695BB17053F878 /* [CP] Check Pods Manifest.lock */ = {
@@ -650,13 +757,16 @@
 				55344C6E22D348CE00352C61 /* JSDBaseViewController.m in Sources */,
 				55344CB422D4204500352C61 /* JSDMainColorTableViewCell.m in Sources */,
 				55344C6A22D3417F00352C61 /* JSDTabBarController.m in Sources */,
+				60C24FCE22E3179D0036DB41 /* UIColor+JSDStyle.m in Sources */,
 				55344CA022D41FB600352C61 /* JSDHomeViewController.m in Sources */,
+				60C24FC522E30B070036DB41 /* JSDColorPaletteVC.m in Sources */,
 				55B6EECB22D324DA0067E888 /* main.m in Sources */,
 				55344CB522D4204500352C61 /* JSDAssistColorCell.m in Sources */,
 				55344CB822D4208A00352C61 /* JSDAssistColorViewController.m in Sources */,
 				55344CBD22D4271700352C61 /* JSDMainColorModel.m in Sources */,
 				55344CD822D49A6400352C61 /* JSDEditColorViewController.m in Sources */,
 				55344CD122D4881C00352C61 /* UIView+JSDFrame.m in Sources */,
+				60C24FC822E315FB0036DB41 /* JSDColorPaletteView.m in Sources */,
 				55B6EEBD22D324D70067E888 /* AppDelegate.m in Sources */,
 				55344CB722D4208700352C61 /* JSDMainColorViewController.m in Sources */,
 				55344CC422D430E800352C61 /* UIColor+JSDStyle.m in Sources */,

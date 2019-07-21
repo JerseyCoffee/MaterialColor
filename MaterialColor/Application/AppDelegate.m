@@ -10,6 +10,7 @@
 
 #import "JSDBaseNavigationController.h"
 #import "JSDHomeViewController.h"
+#import "JSDTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -22,9 +23,10 @@
     // Override point for customization after application launch.
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    JSDHomeViewController* homeViewController = [[JSDHomeViewController alloc] init];
-    JSDBaseNavigationController* navigationController = [[JSDBaseNavigationController alloc] initWithRootViewController:homeViewController];
-    self.window.rootViewController = navigationController;
+//    JSDHomeViewController* homeViewController = [[jsdt alloc] init];
+//    JSDBaseNavigationController* navigationController = [[JSDBaseNavigationController alloc] initWithRootViewController:homeViewController];
+    JSDTabBarController* tabBarVC = [[JSDTabBarController alloc] init];
+    self.window.rootViewController = tabBarVC;
     [self.window makeKeyAndVisible];
 
     return YES;

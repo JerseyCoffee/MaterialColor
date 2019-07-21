@@ -12,5 +12,6 @@
 
 #import "UIColor+JSDStyle.h"
 #import "UIView+JSDFrame.h"
+#import <AXKit.h>
 
 #endif /* JSDPublic_h */

@@ -9,6 +9,7 @@
 #import "JSDTabBarController.h"
 #import "JSDHomeViewController.h"
 #import "JSDBaseNavigationController.h"
+#import "JSDColorPaletteVC.h"
 
 @interface JSDTabBarController ()
 
@@ -43,12 +44,12 @@
 
 - (NSArray *)tabBarItemsAttributesForController {
     NSDictionary *firstTabBarItemsAttributes = @{
-        CYLTabBarItemTitle : @"Primary",
+        CYLTabBarItemTitle : @"Palette",
         CYLTabBarItemImage : @"home_highlight",
         CYLTabBarItemSelectedImage : @"home_highlight",  /* NSString and UIImage are supported*/
     };
     NSDictionary *secondTabBarItemsAttributes = @{
-        CYLTabBarItemTitle : @"Secondary",
+        CYLTabBarItemTitle : @"Rainbow",
         CYLTabBarItemImage : @"fishpond_highlight",
         CYLTabBarItemSelectedImage : @"fishpond_highlight",
     };
@@ -69,7 +70,7 @@
 #pragma mark -- set  && get
 
 - (NSArray *)viewControllers {
-    UIViewController *firstViewController = [[JSDHomeViewController alloc] init];
+    UIViewController *firstViewController = [[JSDColorPaletteVC alloc] init];
     UIViewController *firstNavigationController = [[JSDBaseNavigationController alloc]
                                                    initWithRootViewController:firstViewController];
     [firstViewController cyl_setHideNavigationBarSeparator:NO];
