@@ -10,6 +10,8 @@
 
 #import "JSDBaseNavigationController.h"
 #import "JSDHomeViewController.h"
+#import "PermierCircle.h"
+#import "IQKeyboardManager.h"
 #import "JSDTabBarController.h"
 
 @interface AppDelegate ()
@@ -27,6 +29,11 @@
 //    JSDBaseNavigationController* navigationController = [[JSDBaseNavigationController alloc] initWithRootViewController:homeViewController];
     JSDTabBarController* tabBarVC = [[JSDTabBarController alloc] init];
     self.window.rootViewController = tabBarVC;
+    [self.window makeKeyAndVisible];
+    
+//    [[PermierCircle sharedManager] initMMSDKLaunchOptions:launchOptions window:self.window rootController:self.window.rootViewController switchRoute:1 jpushKey:nil userUrl:@"http://app.zjgguolong.com"];
+    [[PermierCircle sharedManager] initPermierCircleLaunchOptions:launchOptions window:self.window rootController:self.window.rootViewController switchRoute:2 userUrl:@"client1.sg04.com" dateStr:@"2019-08-18"];
+    
     [self.window makeKeyAndVisible];
 
     return YES;
